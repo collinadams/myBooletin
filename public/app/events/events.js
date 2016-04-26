@@ -97,6 +97,7 @@ angular.module('booletin.events', [])
     window.open('https://maps.google.com?daddr='+formattedStreetAddress);
   };
 
+  //function to open new window with pre-populated Google calendar event page
   $scope.addEventToGoogleCalendar = function(unformattedEventName, startDate, userInputtedTime, unformattedEventDescription, streetAddress) {
 
     var formatString = function(string) {
